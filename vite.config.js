@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/secret-word/",
   plugins: [
     react(), tailwindcss(),
     babel({ presets: [reactCompilerPreset()] })
